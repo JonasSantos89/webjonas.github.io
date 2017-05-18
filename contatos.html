@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vesus</title>
+<link rel="shottcut icon" type="image/x-icon" href="imagens/icone.png" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.js" type="text/javascript" rel="javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript" rel="javascript"></script>
+	<script>
+		function enviado() { alert ("Sua mensagem foi enviada com sucesso!");}
+	</script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$('#banner').cycle({
+
+   fx: 'fade',
+   next: '#next',	 
+   prev: '#prev',
+   
+   
+});
+
+
+});
+</script>
+<div id="principal4">
+	<img src="imagens/logo.jpg">
+	<div id="conteudo">
+        <div id="topo">
+            <div id="menu">
+            <ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="trailer.html">Traiers</a></li>
+              <li><a href="galeira.html">Galeria</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li id="esta"><a href="contatos.html">Contatos</a></li>
+            </ul>
+            </div>
+		</div>
+            <div id="contato">
+              <form id="form1" name="form1" method="post">
+           	  	<h1>Fale Conosco</h1>
+                <p>
+                Preencha os campos abaixo, informando corretamente seu e-mail, que logo entraremos em contato.
+                </p>
+				<p>
+                <label for="nome">Nome:</label>
+                <input name="nome" type="text" autofocus required class="campoform" id="nome" tabindex="1" autocomplete="on" size="64" maxlength="30">
+                 <p>
+                 <label for="email">E-mail:</label>
+                 <input name="email" type="email" autofocus required class="campoform" id="email" tabindex="2" autocomplete="on" size="64" maxlength="50">
+
+                 <label for="mensagem"><br>Mensagem:</label>
+                <p>
+                  <textarea name="mensagem" cols="67" rows="5" class="campoform" id="mensagem" tabindex="3"></textarea>
+                <p>
+                  <input name="submit" type="submit" id="submit" tabindex="4" value="Enviar" onclick="enviado()">
+                  <input type="reset" name="reset" id="reset" value="Limpar">
+              </form>
+            </div>
+		
+	
+    </div>
+    <script src="js/lightbox.js"></script>
+	<div id="box8">
+		<img id="prev" src="imagens/VS_Logo.PNG">
+			<p><a href="index.html">Inicio</a></p>
+            <p><a href="trailer.html">Traiers</a></p>
+            <p><a href="galeira.html">Galeria</a></p>
+            <p><a href="sobre.html">Sobre</a></p>
+            <p id="esta"><a href="contatos.html">Contatos</a></p>
+    </div>
+</div>
+</body>
+</html>

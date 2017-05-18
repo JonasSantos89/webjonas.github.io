@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vesus</title>
+<link rel="shottcut icon" type="image/x-icon" href="imagens/icone.png" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.js" type="text/javascript" rel="javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript" rel="javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$('#banner').cycle({
+
+   fx: 'fade',
+   next: '#next',	 
+   prev: '#prev',
+   
+   
+});
+
+
+});
+</script>
+<div id="principal">
+	<img src="imagens/logo.jpg">
+	<div id="conteudo">
+        <div id="topo">
+            <div id="menu">
+            <ul>
+			  <li id="esta"><a href="index.html">Inicio</a></li>
+			  <li><a href="trailer.html">Traiers</a></li>
+              <li><a href="galeira.html">Galeria</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+            </div>
+        </div>
+        <div id="banner">
+        	<img src="imagens/imagens banner/1.jpg">
+            <img src="imagens/imagens banner/2.jpg">
+            <img src="imagens/imagens banner/3.jpg">
+            <img src="imagens/imagens banner/4.jpg">
+        </div>
+        <div id="prev_next"> 
+        	<a href="#"><img id="prev" src="images/prev.png"></a>
+            <a href="#"><img id="next" src="images/next.png"></a>
+    </div>
+  <div id="conteudo">
+            <div id="box1">
+			<div id="texto1">
+              <h1>Batman vs Superman: A Origem da Justiça</h1>
+			  <p>Preocupado com as ações de um super-herói com poderes quase divinos e sem restrições, o formidável e implacável vigilante de Gotham City enfrenta o mais adorado salvador de Metrópolis, enquanto todos se questionam sobre o tipo de herói que o mundo realmente precisa. E com Batman e Superman em guerra um com o outro, surge uma nova ameaça, colocando a humanidade sob um risco maior do que jamais conheceu.</p>
+			  <p><a href="trailer.html">Assistir Trailer</a></p>
+            </div>
+			</div>
+            <div id="box2">
+			<div id="texto1">
+				<h1>Capitão América 3: Guerra Civil</h1>
+				<p>Steve Rogers lidera o recém-formado grupo dos Vingadores em seus esforços contínuos para proteger a humanidade. Mas a pressão política para instalar um sistema de responsabilização, comandado por uma agência do governo para supervisionar e dirigir a equipe. O novo sistema divide os Vingadores, resultando em duas frentes - uma liderada por Steve Rogers que quer defender a humanidade sem a interferência do governo, e a outra que segue a surpreendente decisão de Tony Stark de apoiar a responsabilização e supervisão do governo.</p>
+				<p><a href="trailer_war.html">Assistir Trailer</a></p>
+			</div>	
+				<!-- 
+
+
+				<h1>Galeria</h1>
+            	<a href="imagens/galeria/1.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/1.jpg"></a>
+                <a href="imagens/galeria/2.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/2.jpg"></a>
+                <a href="imagens/galeria/3.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/3.jpg"></a>
+                <a href="imagens/galeria/4.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/4.jpg"></a>
+                <a href="imagens/galeria/5.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/5.jpg"></a>
+                <a href="imagens/galeria/6.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/6.jpg"></a>
+                <a href="imagens/galeria/7.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/7.jpg"></a>
+                <a href="imagens/galeria/8.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/8.jpg"></a>
+                <a href="imagens/galeria/9.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/9.jpg"></a>
+                <a href="imagens/galeria/10.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/10.jpg"></a>
+                <a href="imagens/galeria/11.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/11.jpg"></a>
+                <a href="imagens/galeria/12.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/12.jpg"></a>
+                <a href="imagens/galeria/13.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/13.jpg"></a>
+                <a href="imagens/galeria/14.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/14.jpg"></a>
+                <a href="imagens/galeria/15.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/15.jpg"></a>
+                <a href="imagens/galeria/16.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/16.jpg"></a>
+                <a href="imagens/galeria/17.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/17.jpg"></a>
+                <a href="imagens/galeria/18.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/18.jpg"></a>
+                <a href="imagens/galeria/19.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/19.jpg"></a>
+                <a href="imagens/galeria/20.jpg" data-lightbox="roadtrip"><img src="imagens/galeria/20.jpg"></a>
+
+				
+#box9 h1{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #003B07;
+	text-align:center;
+}
+#box9 img{
+	width: 99px;
+	height: 63px;
+	float:left;
+	margin: 6px;
+	border:2px #319039 solid;
+	filter:gray;
+	filter:grayscale(1);
+	-webkit-filter:grayscale(1);
+	opacity:0.6;
+}
+#box9 img:hover {
+	filter:none;
+	-webkit-filter:grayscale(0);
+	opacity:1.0;
+}
+				
+				
+				
+				-->
+				</div>
+            <div id="box3">
+			<div id="texto1">
+				<h1>suicide squad</h1>
+            	<p>Esquadrão Suicida é um futuro filme de ação estadunidense de 2016 escrito e dirigido por David Ayer, baseado na equipe de anti-heróis de mesmo nome da DC Comics. Será o terceiro filme do Universo Estendido DC.</p>
+				<p><a href="trailer_squad.html">Assistir Trailer</a></p>
+            </div>
+			</div>
+        </div>
+    </div>
+    <script src="js/lightbox.js"></script>
+	<div id="box4">
+		<img id="prev" src="imagens/VS_Logo.PNG">
+			<p id="esta"><a href="index.html">Inicio</a></p>
+            <p><a href="trailer.html">Traiers</a></p>
+            <p><a href="galeira.html">Galeria</a></p>
+            <p><a href="sobre.html">Sobre</a></p>
+            <p><a href="contatos.html">Contatos</a></p>
+    </div>
+	</div>
+</body>
+</html>

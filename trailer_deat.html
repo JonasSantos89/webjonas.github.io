@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vesus</title>
+<link rel="shottcut icon" type="image/x-icon" href="imagens/icone.png" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.js" type="text/javascript" rel="javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript" rel="javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$('#banner').cycle({
+
+   fx: 'fade',
+   next: '#next',	 
+   prev: '#prev',
+   
+   
+});
+
+
+});
+</script>
+<div id="principal2">
+	<img src="imagens/logo.jpg">
+	<div id="conteudo">
+        <div id="topo">
+            <div id="menu">
+            <ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li id="esta"><a href="trailer.html">Traiers</a></li>
+              <li><a href="galeira.html">Galeria</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+            </div>
+            <div id="box5">
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2VsjN1Fs9O4" frameborder="0" allowfullscreen></iframe>
+			<div id="texto2">
+              <h1>Deadpool</h1>
+			  <p>Baseado no anti-herói não convencional da Marvel Comics, Deadpool conta a história da origem do ex-agente das Forças Especiais que se tornou o mercenário Wade Wilson. Depois de ser submetido a um desonesto experimento que o deixa com poderes de cura acelerada, Wade adota o alter ego de Deadpool. Armado com suas novas habilidades e um senso de humor negro e distorcido, Deadpool persegue o homem que quase destruiu sua vida.</p>
+            </div>
+			</div>
+			<div id="box7" ><a href="trailer_war.html">
+				<div id="v">
+				<img src="imagens/war.jpg">
+				<p>Civil War<br>Trailer</p>
+				</div>
+			</div></a>
+			<div id="box7"><a href="trailer_squad.html">
+				<div id="v">
+				<img src="imagens/squad.jpg">
+				<p>Suicid Squad<br>Trailer</p>
+				</div>
+			</div></a>
+			<div id="box7"><a href="trailer.html">
+				<div id="v">
+				<img src="imagens/bat.jpg">
+				<p>Batman vs<br>Superman<br>Trailer</p>
+				</div>
+			</div></a>
+		</div>
+	
+    </div>
+    <script src="js/lightbox.js"></script>
+	<div id="box6">
+		<img id="prev" src="imagens/VS_Logo.PNG">
+			<p><a href="index.html">Inicio</a></p>
+            <p id="esta"><a href="trailer.html">Traiers</a></p>
+            <p><a href="galeira.html">Galeria</a></p>
+            <p><a href="sobre.html">Sobre</a></p>
+            <p><a href="contatos.html">Contatos</a></p>
+    </div>
+</div>
+</body>
+</html>

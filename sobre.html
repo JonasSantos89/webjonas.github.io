@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vesus</title>
+<link rel="shottcut icon" type="image/x-icon" href="imagens/icone.png" />
+<link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/lightbox.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.js" type="text/javascript" rel="javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript" rel="javascript"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$('#banner').cycle({
+
+   fx: 'fade',
+   next: '#next',	 
+   prev: '#prev',
+   
+   
+});
+
+
+});
+</script>
+<div id="principal3">
+	<img src="imagens/logo.jpg">
+	<div id="conteudo">
+        <div id="topo">
+            <div id="menu">
+            <ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="trailer.html">Traiers</a></li>
+              <li><a href="galeira.html">Galeria</a></li>
+              <li id="esta"><a href="sobre.html">Sobre</a></li>
+              <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+            </div>
+        </div>
+        <div id="banner">
+        	<img src="imagens/imagens banner/1.jpg">
+            <img src="imagens/imagens banner/2.jpg">
+            <img src="imagens/imagens banner/3.jpg">
+            <img src="imagens/imagens banner/4.jpg">
+        </div>
+        <div id="prev_next"> 
+        	<a href="#"><img id="prev" src="images/prev.png"></a>
+            <a href="#"><img id="next" src="images/next.png"></a>
+    </div>
+  <div id="conteudo">
+            <div id="sobre">
+			<div id="texto1">
+              <h1>Versus</h1>
+			  <p>Um site criado para informar o internauta sobre os filmes de super-heróis que estão sendo lançados no ano.</p>
+            </div>
+			</div>
+        </div>
+    </div>
+    <script src="js/lightbox.js"></script>
+	<div id="box8">
+		<img id="prev" src="imagens/VS_Logo.PNG">
+			<p><a href="index.html">Inicio</a></p>
+            <p><a href="trailer.html">Traiers</a></p>
+            <p><a href="galeira.html">Galeria</a></p>
+            <p id="esta"><a href="sobre.html">Sobre</a></p>
+            <p><a href="contatos.html">Contatos</a></p>
+    </div>
+	</div>
+</body>
+</html>
